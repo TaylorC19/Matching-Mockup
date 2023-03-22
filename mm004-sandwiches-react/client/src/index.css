@@ -1,13 +1,59 @@
 body {
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: #04414A;
+  background-color: #E2ECE9;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, h2 {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+}
+
+button {
+  background-color: #BEE1E7;
+}
+
+.menu-img {
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  object-fit: cover;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 10%;
+}
+
+.card {
+  background-color: #F0EFEB;
+  margin: 10px;
+  /* width: 30vw; */
+  border-radius: 10px;
+}
+
+.card-contents {
+  margin-left: 5px;
+}
+
+span {
+  font-size: .8rem;
+}
+
+.star {
+  scale: 25%;
+}
+
+.heading {
+  background-color: #04414A;
+  color: #BEE1E7;
+  text-align: center;
+}
+
+.row-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }

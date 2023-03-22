@@ -6,7 +6,7 @@ exports.up = async function(knex) {
   return await knex.schema.createTable('sandwich', (table) => {
     table.increments('id')
       .primary();
-    table.string('img_url', 255);
+    table.text('img_url', 'mediumtext');
     table.string('name', 255);
     table.text('desc', 'mediumtext');
     table.integer('calories');
